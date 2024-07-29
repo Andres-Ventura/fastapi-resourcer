@@ -33,7 +33,7 @@ jobs:
         run: python ./scripts/docs.py build-all
       - name: Zip docs
         run: bash ./scripts/zip-docs.sh
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: docs-zip
           path: ./docs.zip
