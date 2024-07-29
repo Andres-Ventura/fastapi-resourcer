@@ -68,7 +68,7 @@ test = [
     "anyio[trio] >=3.2.1,<4.0.0",
 
     # types
-    "types-ujson ==4.2.1",
+    "types-ujson ==5.10.0.20240515",
     "types-orjson ==3.6.2",
 ]
 doc = [
